@@ -1,0 +1,49 @@
+/* Default Settings Start */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #fffad4;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: 'Krona One', sans-serif;
+}
+
+body {
+  font-family: myFont;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  background-color: #f5fffa;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Default Settings End */
